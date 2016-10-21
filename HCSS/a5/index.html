@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fancy Links</title>
+        <style>
+            body {
+                font-family: Verdana, Arial, sans-serif;
+            }
+            #navbar {
+                text-align: center;
+                border: 4px solid #555;
+                padding: 10px;
+                background-color: #bbb;
+                box-shadow: 3px 3px 6px #999;
+                border-radius: 40px;
+                margin: 10px;
+            }
+            #navbar a {
+                color: #fff;
+                text-decoration: none;
+                display: inline-block;
+                border: 1px solid #fff;
+                margin: 10px;
+                padding: 8px 16px 10px 16px;
+                box-shadow: inset 2px 2px 3px #ddd;
+                text-align: center;
+                background-color: #222;
+                border-radius: 20px;
+                height: 16px;
+                width: 60px;
+            }
+            #navbar a:hover {
+                color: #222;
+                background-color: #ccc;
+            }
+            #navbar a:active {
+                box-shadow: inset 4px 4px 6px #aaa;
+                border-color: #000;
+                color: #000;
+                background-color: #fff;
+            }
+            #navbar a.active {
+                box-shadow: inset 4px 4px 6px #aaa;
+                border-color: #000;
+                color: #000;
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="#">Page 1</a>
+            <a href="#" class="active">Page 2</a>
+            <a href="#">Page 3</a>
+            <a href="#">Page 4</a>
+        </div>
+        <h1>
+            Page 2
+        </h1>
+        <p>
+            This is some regular text.  It also has a <a href="#">link</a> in it.  
+        </p>
+    </body>
+</html>

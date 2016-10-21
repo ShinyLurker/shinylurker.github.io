@@ -1,0 +1,8 @@
+div {
+	border: #000 solid 1px;
+	width: 400px;
+	height: 200px;
+}
+.name {
+	background-color: #f00;
+}

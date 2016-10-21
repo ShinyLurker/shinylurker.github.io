@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+    </head>
+    <body>
+        <form onsubmit="return false;">
+            <label for="text">List item:</label>
+            <input type="text" id="text" name="text">
+            <br>
+            <input type="submit" id="listbutton" value="Add To List" onclick="return addListItem();">
+        </form>
+        <ul id='list'>
+        </ul>
+        
+        <script>
+            var listButton = document.getElementById('listbutton');
+            var textArea = document.getElementById('text');
+            
+            listButton.addEventListener('click', addListItem);
+            textArea.addEventListener('keypress', triggerButton);
+            
+            function addListItem() {
+                var text = textArea.value;
+                var newEl = document.createElement('li');
+                var newText = document.createTextNode(text);
+                var test = text.replace(/\s+/g, '')
+                
+                if (test != '') {
+                    newEl.appendChild(newText);
+                    var position = document.getElementById('list');
+                    position.appendChild(newEl);
+                }
+                else {
+                }
+                
+                document.getElementById('text').value = '';
+            }
+            
+            
+            function triggerButton() {
+                if (event.keyCode==13) {
+                    listButton.click();
+                    return false;
+                }
+                return true;
+            }
+            
+            
+        </script>
+        
+    </body>
+</html>

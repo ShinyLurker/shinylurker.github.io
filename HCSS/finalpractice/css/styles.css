@@ -1,0 +1,181 @@
+body {
+    background-image: url('http://shalpin.durb.co/finalpractice/media/sandbackground6min.jpg');
+    font-family: sans-serif;
+}
+
+#header {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 150px;
+    background-color: rgba(255, 255, 255, .3);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#header h1 {
+    color: #a62;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+#header h6 {
+    position: relative;
+    top: -35px;
+    font-size: 16px;
+    color: #c73;
+}
+#headleftimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+}
+#headrightimg {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 120px;
+}
+#forecast {
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    height: 35px;
+}
+
+
+
+
+#navigation {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    left: 13px;
+    top: 160px;
+    width: 120px;
+}
+#navigation a {
+    border: solid 2px #eee;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    color: #35a;
+    padding-top: 6px;
+}
+#navigation a:hover {
+    color: #49c;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: rgba(200, 200, 200, .5);
+}
+#navigation a.activepage {
+    color: #248;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+
+
+#bodycontent {
+    height: 70%;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 150px;
+    color: #000;
+    background-color: rgba(255,255,255, 0);
+    
+}
+#bodycontent a {
+    color: #369;
+}
+#content{
+    margin-left: 150px;
+}
+#content div {
+    margin: 10px;
+}
+#content ul {
+    display: inline-block;
+}
+#content li {
+    list-style: none; 
+}
+#bodycontent img {
+    height: 250px;
+    margin-top: 30px;
+}
+.galleryimg {
+    text-align:center;
+    display: inline-block;
+    margin: 20px;
+}
+#bodycontent h3 {
+    font-size: 22px;
+    font-family: serif;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+#footer {
+    background-color: rgba(255,255,255, .3);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    
+}
+#footer #counter {
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    left: 15px;
+    margin-top: 5px;
+    
+}
+#footer #copyright {
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+#footer a {
+    text-decoration: none;
+    color: #369;
+}
+
+.rednote {
+    color: #a00;
+    
+}
+.centernote {
+    text-align: center;
+}
+.indentnote {
+    margin-left: 100px;
+}
+div.indentnote {
+    padding-left: 100px;
+}
+.boldnote {
+    font-weight: bold;
+}
+#tortlist {
+    position: relative;
+    top: -38px;
+}
+

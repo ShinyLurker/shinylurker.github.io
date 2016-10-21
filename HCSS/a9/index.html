@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Form</title>
+        <style>
+            body {
+                background-color: #fee;
+                font-family: sans-serif;
+            }
+            form {
+                border:1px solid #333;
+                padding: 10px 10px 10px 20px;
+                background-color: #acf;
+                border-radius: 20px;
+                box-shadow: 5px 3px 3px #666;
+                width: 400px;
+            }
+            
+            label {
+                display: inline-block;
+                width: 60px;
+                padding: 5px;
+                border: 1px solid #fff;
+                margin: 5px;
+                border-radius: 5px;
+                box-shadow: 3px 2px 2px #aaa;
+                background-color: #ebb;
+            }
+            
+            .button {
+                margin: 4px 0px 3px 15px;
+                padding: 0px 0px 3px 5px;
+                text-align: center;
+                box-shadow: 0px 0px 0px #acf;
+                background-color: #acf;
+                border: 0px;
+                width: 28px;
+            }
+            
+            #name {
+                display: inline-block;
+                width: 250px;
+                
+            }
+            #email {
+                width: 250px;
+                
+            }
+            #state {
+                width: 150px;
+                
+            }
+            #finish {
+                margin: 5px 100px 10px 100px;
+                background-color: #ebb;
+                border-radius: 100px;
+                width: 200px;
+                height: 35px;
+                font-size: 18px;
+            }
+            
+            
+            
+            
+        </style>
+        
+        
+    </head>
+    
+    <body>
+        <form action="http://www.bmoseley.com/mailform.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="state">State</label>
+            <select name="state" id="state">
+                <option value="al">Alabama</option>
+                <option value="ak">Alaska</option>
+                <option value="az">Arizona</option>
+                <option value="ak">Arkansas</option>
+                <option value="ca">California</option>
+                <option value="co">Colorado</option>
+                <option value="ct">Connecticut</option>
+                <option value="de">Delaware</option>
+                <option value="fl">Florida</option>
+                <option value="ga">Georgia</option>
+                <option value="hi">Hawaii</option>
+                <option value="id">Idaho</option>
+                <option value="il">Illinois</option>
+                <option value="in">Indiana</option>
+                <option value="ia">Iowa</option>
+                <option value="ks">Kansas</option>
+                <option value="ky">Kentucky</option>
+                <option value="la">Louisiana</option>
+                <option value="me">Maine</option>
+                <option value="md">Maryland</option>
+                <option value="ma">Massachusetts</option>
+                <option value="mi">Michigan</option>
+                <option value="mn">Minnesota</option>
+                <option value="ms">Mississippi</option>
+                <option value="mo">Missouri</option>
+                <option value="mt">Montana</option>
+                <option value="ne">Nebraska</option>
+                <option value="nv">Nevada</option>
+                <option value="nh">New Hampshire</option>
+                <option value="nj">New Jersey</option>
+                <option value="nm">New Mexico</option>
+                <option value="ny">New York</option>
+                <option value="nc">North Carolina</option>
+                <option value="nd">North Dakota</option>
+                <option value="oh">Ohio</option>
+                <option value="ok">Oklahoma</option>
+                <option value="or">Oregon</option>
+                <option value="pa">Pennsylvania</option>
+                <option value="ri">Rhode Island</option>
+                <option value="sc">South Carolina</option>
+                <option value="sd">South Dakota</option>
+                <option value="tn">Tennessee</option>
+                <option value="tx">Texas</option>
+                <option value="ut">Utah</option>
+                <option value="vt">Vermont</option>
+                <option value="va">Virginia</option>
+                <option value="wa">Washington</option>
+                <option value="wv">West Virginia</option>
+                <option value="wi">Wisconsin</option>
+                <option value="wy">Wyoming</option>
+            </select>
+            <br>
+            <br>
+            <div>Would you like to sign up for our mailing list?</div>
+            <label for="yesno" class="button">Yes</label>
+            <input type="radio" name="yesno" id="yesno" value="yes" checked="checked">
+            <br>
+            <label for="yesno" class="button">No</label>
+            <input type="radio" name="yesno" id="yesno2" value="no">
+            <br>
+            <br>
+            <input type="hidden" name="sendto" id="sendto" value="sean.halpin1992@email.bakersfieldcollege.edu">
+            <button type="submit" name="finish" id="finish">Submit Information</button>
+            
+            
+            
+            
+            
+        </form>
+    </body>
+</html>

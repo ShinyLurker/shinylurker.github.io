@@ -1,0 +1,42 @@
+#navbar {
+    background-color: #5c8;
+    height: 50px;
+    text-align: center;
+}
+#navbar a {
+    display: inline-block;
+    border: 2px solid #b44;
+    padding: 4px;
+    width: 200px;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+}
+#navbar a:hover {
+    color: #ccc;
+    background-color: #3a5;
+}
+#navbar a.active {
+    color: #fff;
+    background-color: #193;
+}
+
+#content div {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#content h2 {
+    color: #a33;
+}
+
+#content ul {
+    text-align: center;
+    list-style: none;
+}
+
+#content ul li span {
+    font-weight: bold;
+}
